@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
+
 
 class ViewController: UIViewController {
 
@@ -18,6 +21,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        if NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID) != nil {
+            
+        }
     }
 
 
