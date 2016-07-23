@@ -48,15 +48,15 @@
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>fb656579734498477</string>
+                <string>fb_id_</string>
             </array>
         </dict>
     </array>
     <key>FacebookAppID</key>
-    <string>656579734498477</string>
+    <string>_id_</string>
     <key>FacebookDisplayName</key>
-    <string>Arca</string>
-    <key>LSApplicationQueriesSchemes</key>
+    <string>_app_name_</string>
+    <key>_app_key_</key>
     <array>
         <string>fbapi</string>
         <string>fb-messenger-api</string>
